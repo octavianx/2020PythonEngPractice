@@ -20,7 +20,7 @@
 
 ## python编程一定要上虚拟化环境:  建立两层虚拟环境
 
-###  1. OS级:  pyenv
+###  1. OS级虚拟环境:  pyenv
 
 经验1.0   最好的os级虚拟环境是pyenv，   mac OS  通过brew 安装pyenv ， 不管mac OS里面装的是什么python 版本，都不要紧 ;
 
@@ -49,7 +49,7 @@ $pyenv install --list
 
 
 
-###  2. 工程级虚拟环境:  python -m venv  (不要再用virtualenv)
+###  2. Project级虚拟环境:  python -m venv  (不要再用virtualenv)
 
 经验1.5    不要再使用virtualenv了，从python 3.5 开始自带 venv模块， 即可创建虚拟环境
 
@@ -57,7 +57,7 @@ $pyenv install --list
 $python -m venv yourenvpath
 ```
 
-为每一个项目目录建立虚拟环境，把需要的包装在虚拟环境里面，不干扰os 级别的虚拟环境
+为每一个项目的总工程目录（也可以公用，看你的需要）建立虚拟环境，把需要的包装在虚拟环境里面，不干扰os 级别的虚拟环境;
 
 
 
