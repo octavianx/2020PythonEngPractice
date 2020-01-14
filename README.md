@@ -83,9 +83,9 @@ $source  yourenvpath/bin/activate
 #下载 autoenv
 git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
 # 配置autoenv 到bash自动加载
-echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
-# 在当前shell先来一把 ,假设你用的是bash, 如果你用的zsh 我想你一定知道要改哪个文件
-source ~/.bashrc
+echo 'source ~/.autoenv/activate.sh' >> ~/.bash_profile
+# 在当前shell先来一把 ,假设你用的是bash + mac OS  请要注意mac os的特殊性，不要写在 .bashrc里 , 如果你用的zsh 我想你一定知道要改哪个文件
+source ~/.bash_profile
 ```
 
 进入项目目录配置 .env文件来实现进入项目目录的自动化:
