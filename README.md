@@ -92,12 +92,31 @@ source ~/.bash_profile
 
 ```bash
 # 进入项目目录 假设为projectpath
-echo "source venv/bin/activate" > projectpath/.env	
-
+echo "source venv/bin/activate" > projectpath/.env
 ```
 
 下次进入项目目录就会提示是否激活，再次进入时不会再提示.
 
+### PlayGround:   jupyter notebook  (不要pyCharm 等IDE, 不要iPython
+等交互式命令行)
 
+如何执行，python 代码片段？  最好的不是要 vim (虽然我在用vim写这个部分的笔记),
+但即使是unix老鸟，也不想在命令行下面作python练习，熟悉命令是一方面(虽然你eventually的会使用vim)
+关键在于它让你偏离了目标，尽快的上手开始coding in python.
+在CLI (command line interface) 下coding 虽然看起来很酷,
+但是会让你浪费很多的时间，而且写出代码的成果不能保存，不能来回调试修改已经写过的代码，
+你可能需要重新完整的写一遍，哪怕是iPython这种交互式的shell，也并不会好到哪里去.
+请从jupyter notebook开始 (jupyter 还有一个jupytelab
+的项目正在进行中，可能大家读到的时候已经可以完全正常的使用了)
+jupyter的notebook
+是一个文本文件，它能够在jpyter中渲染出网页，在页面中交互式的执行代码，书写注释，笔记（甚至在笔记中引用代码中的变量）
+也能方便的将你的执行结果或者执行源代码share 给_其他人, 所以jupyter notebook
+是python 学习的最佳入门平台.
+
+为什么不使用IDE
+pycharm是很好的IDE， 但是开始工程性开发之前，并不需要用到它.
+它的虚拟环境设置等project scope的配置也会让你转移注意力偏移目标,
+对练习并不方便.   即使将来进入工程性开发，jupyter notebook
+对于你的个人修炼，仍然必不可少，这是两个方向上应用的不同工具，并不能互相替代.
 
 
