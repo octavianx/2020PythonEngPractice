@@ -47,6 +47,15 @@ $curl https://pyenv.run | bash
 $sudo yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
 ```
 
+> ModuleNotFoundError: No module named '_ctypes'
+> $ sudo  yum install libffi-devel -y
+>zipimport.ZipImportError: can't decompress data; zlib not available
+make: *** [install] Error 1
+[opc@hostjp-01 ~]$
+[opc@hostjp-01 ~]$
+[opc@hostjp-01 ~]$
+[opc@hostjp-01 ~]$ sudo yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+
 
 ### 经验1.3   安装完成 pyenv 之后， 选择你需要的python 版本 在pyenv里面安装就好了
 
