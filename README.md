@@ -23,7 +23,15 @@
 ##  1. OS级虚拟环境:  pyenv
 
 ### 经验1.0   最好的os级虚拟环境是pyenv，   mac OS  通过brew 安装pyenv ， 不管mac OS里面装的是什么python 版本，都不要紧 ;
+Linux 也可以，windows不建议.
 
+> pyenv 安装  https://github.com/pyenv/pyenv-installer
+
+```bash
+$curl https://pyenv.run | bash
+```
+
+> pyenv project :  https://github.com/pyenv/pyenv
 
 
 ### 经验1.1  有些奇怪的书籍或者文章会推荐anaconda, ipython, jupyter notebook等给新入门者，这些名词的意思不一样，也用于不同用途，即使是科学计算，我也建议安装正常的python包，然后用 pip来管理你所需要的其他包，在我的指引下，你不会担心编译的问题,  也可以轻松达到懒人包的效果; 
