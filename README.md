@@ -42,6 +42,10 @@ $curl https://pyenv.run | bash
 
 在编译的时候会遇到各种要安装gcc , 或者zlib  openssl等各种依赖的情况，少了编译参数就可能在遇到具体的用python 的软件的时候要重新编译 python （特别是在ubuntu 系统上）;
 
+> Linux系统上注意安装依赖
+```bash
+$sudo yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+```
 
 
 ### 经验1.3   安装完成 pyenv 之后， 选择你需要的python 版本 在pyenv里面安装就好了
