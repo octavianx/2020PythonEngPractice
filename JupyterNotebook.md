@@ -1,13 +1,15 @@
+## import self-defined module in  jupyter , auto reload module (after you changing it) without restart kernel everytime
+
+
 
 在jupyternotebook下导入自己写的模块，需要注意：
 当更改自己的模块的内容后，要Restart内核，才能反映到使用该模块的.ipynb文件中。
 
-但是实际上还有work around:  
-
+但是实际上还有work around,  可以不需要
 
 具体的讨论可以参见:
-[https://support.enthought.com/hc/en-us/articles/204469240-Jupyter-IPython-After-editing-a-module-changes-are-not-effective-without-kernel-restart|Jupyter / IPython: After editing a module, changes are not effective without kernel restart
- ]
+
+[Jupyter / IPython: After editing a module, changes are not effective without kernel restart](https://support.enthought.com/hc/en-us/articles/204469240-Jupyter-IPython-After-editing-a-module-changes-are-not-effective-without-kernel-restart)
 
 TLDR:
 直接的方法
