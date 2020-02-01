@@ -28,7 +28,7 @@ from foo import some_function
 
 ## unittest in jupyter notebook
 
-在jupyter notebook 中执行unittest.main()  会遇到 module _____main__ object has no attribute ' 错误.
+在jupyter notebook 中执行unittest.main()  会遇到 'module ________main___  object has no attribute ' 错误.
 解决方法是:
 
 ```python
@@ -39,4 +39,5 @@ unittest.main(argv=['first-arg-is-ignored'], exit=False)
    argv=['whatever', '-param1', '-param2']
 ```
 > exit=False 用于防止 unittest 停止了kernel
+
 方法来源: https://stackoverflow.com/questions/37895781/unable-to-run-unittests-main-function-in-ipython-jupyter-notebook
