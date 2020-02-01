@@ -28,7 +28,7 @@ from foo import some_function
 
 ## unittest in jupyter notebook
 
-在jupyter notebook 中执行unittest.main()  会遇到 'module ________main___  object has no attribute ' 错误.
+在jupyter notebook 中执行unittest.main()  会遇到 'module ________main____  object has no attribute ' 错误.
 解决方法是:
 
 ```python
