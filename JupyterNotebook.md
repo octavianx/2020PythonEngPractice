@@ -22,3 +22,16 @@ from foo import some_function
 > Functions that are removed (eg. via monkey-patching) from a module before it is reloaded are not upgraded.
 > C extension modules cannot be reloaded, and so cannot be autoreloaded.
 
+
+## unittest in jupyter notebook
+
+在jupyter notebook 中执行unittest.main()  会遇到 module '_____main__ object has no attribute ' 错误.
+解决方法是:
+
+```python
+unittest.main(argv=['first-arg-is-ignored'], exit=False)
+```
+> 第一个参数会被忽略掉.  如果需要在执行的时候加入参数，直接加到argv列表里即可
+> like   argv=['whatever', '-param1', '-param2']
+> exit=False 用于防止 unittest 停止了kernel
+方法来源: https://stackoverflow.com/questions/37895781/unable-to-run-unittests-main-function-in-ipython-jupyter-notebook
