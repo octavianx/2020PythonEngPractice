@@ -1,5 +1,4 @@
-# 2020 Python Engineering Practice  on mac OS
-
+# 2020 Python Engineering Practice  on mac OS  python工程化最佳实践指南2020年(3.x, Year 2020)
 
 
 技术在不断推进， 信息具有时间性，许多设计/实现都有着当时因缘际会的因素的而造就，随着时间变化，设计实现都有了更好的替代。因此写一下2020年这个时候，python相关的一些工程实践，供大家批判性的参考，少走弯路，不要摸着石头过河了. 
